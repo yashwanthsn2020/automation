@@ -1,3 +1,6 @@
+# Trigger the workflow on push or pull request
+on: [push, pull_request]
+
 # Set to true to add reviewers to pull requests
 addReviewers: true
 
